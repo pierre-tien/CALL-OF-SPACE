@@ -1,0 +1,40 @@
+{
+  "retrievedAt": "2026-11-14T21:04:49Z",
+  "livePreferred": true,
+  "note": "Values captured from live NASA/JPL responses on 14 November 2026. The game refetches them when the API is reachable and labels this file when it is not.",
+  "moon": {
+    "command": "301",
+    "name": "Moon",
+    "center": "Earth (399) body center",
+    "epoch": "2026-11-14 00:00:00 TDB",
+    "rangeKm": 405584.4175194661,
+    "radiusKm": 1737.53,
+    "surfaceGravityMs2": 1.62,
+    "semiMajorAxisKm": 384400,
+    "ephemeris": "DE441",
+    "source": "NASA/JPL Horizons API"
+  },
+  "mars": {
+    "command": "499",
+    "name": "Mars",
+    "center": "Earth (399) body center",
+    "epoch": "2026-11-14 00:00:00 TDB",
+    "rangeKm": 198132895.7162174,
+    "ephemeris": "mar099 / DE441",
+    "source": "NASA/JPL Horizons API"
+  },
+  "asteroid": {
+    "designation": "2012 TC4",
+    "spkid": "50609716",
+    "fullName": "(2012 TC4)",
+    "orbitClass": "APO",
+    "catalogModified": "2026-07-28 09:31:56 PDT",
+    "source": "NASA/JPL Small-Body Mission Design API",
+    "sample": {
+      "vinfDepartureKmS": 0.1892,
+      "vinfArrivalKmS": 6.4552,
+      "timeOfFlightDays": 1005,
+      "note": "One low departure-v-infinity ballistic option present in the API result. It is not a selected or recommended trajectory."
+    }
+  }
+}
